@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "packaged_at_utc": "2026-10-04T06:58:11.137938+00:00",
+  "recorded_render": "denis-render.json",
+  "recorded_verification_source_commit": "864255b8215c6f7458111a845cdbeb11c4a5d078",
+  "render_source_commit": "637ca5e3aa9806037b0c907ff4d6851330f4691b",
+  "voice": "Piper Denis ru_RU medium",
+  "runtime": "Linux CPU, Piper 1.8.0, FFmpeg 6.1.1",
+  "artifacts": [
+    {
+      "path": "examples/demo/rustclip-studio-demo-denis.mp4",
+      "bytes": 712272,
+      "sha256": "3ef8de47d8b49722cb9fdad293b83cb486d869a61f9065e0a72904c98050f6e7",
+      "duration_s": 28.021333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "source_copy_sha256_match": true,
+      "full_decode": "passed",
+      "recorded_render_sha256_match": true
+    },
+    {
+      "path": "examples/demo/rustclip-studio-voice-denis.mp3",
+      "bytes": 450964,
+      "sha256": "e6a3a2ca3086b1f8aa3caa501a36da6881f22ede069280b037453de97eb786a8",
+      "duration_s": 28.152,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "source_copy_sha256_match": true,
+      "full_decode": "passed",
+      "recorded_render_sha256_match": null,
+      "reference_hash_note": "No separate MP3 hash was supplied in denis-render.json; this hash was recorded during packaging."
+    }
+  ],
+  "preview": {
+    "path": "examples/demo/preview.jpg",
+    "source_video_position_s": 2,
+    "bytes": 63868,
+    "sha256": "b147aab7c398a3b5500de3759d4d79c66a36ee5d33ee293691dd1edf8497042d"
+  },
+  "graph_integrity_matches_recorded_render": true,
+  "graph_integrity": {
+    "count": 8,
+    "error": null,
+    "head_hash": "efbc072b245f37c429d69c537aed15eb94c8d6fa334bf272ea6f07a06621e3b5",
+    "valid": true
+  },
+  "checks_rerun_for_packaging": [
+    "SHA256 source/copy equivalence",
+    "MP4 hash, dimensions and duration versus recorded render",
+    "ffprobe streams for MP4 and MP3",
+    "full MP4 and MP3 decode via FFmpeg",
+    "graph integrity metadata versus recorded render"
+  ],
+  "limitations": {
+    "full_code_test_suite_rerun": false,
+    "external_social_publication": false,
+    "views_measured": false,
+    "revenue_measured": false,
+    "windows_render_verified": false
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "voice": "Piper Denis ru_RU medium",
+  "engine_version": "piper-tts1.8.0",
+  "project_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+  "previous_revision": 1,
+  "revision": 2,
+  "previous_video_sha256": "348699cb1f350faac713cb20b73117afcd9d477ff4aeb9161a94ad8b10be2c7a",
+  "video_sha256": "3ef8de47d8b49722cb9fdad293b83cb486d869a61f9065e0a72904c98050f6e7",
+  "duration_s": 28.021333,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "audio_peak_linear": 0.8550736308097839,
+  "audio_rms": 0.10649817920295394,
+  "gain": 0.85,
+  "model": [
+    {
+      "name": "ru_RU-denis-medium.onnx",
+      "bytes": 63201294,
+      "sha256": "15fab56e11a097858ee115545d0f697fc2a316c41a291a5362349fb870411b0a",
+      "source": "https://huggingface.co/rhasspy/piper-voices/resolve/main/ru/ru_RU/denis/medium/ru_RU-denis-medium.onnx"
+    },
+    {
+      "name": "ru_RU-denis-medium.onnx.json",
+      "bytes": 4823,
+      "sha256": "831c860dac0b5073eaa81610a0a638ec23d90a6cf8e5f871b4485c2cec3767c8",
+      "source": "https://huggingface.co/rhasspy/piper-voices/resolve/main/ru/ru_RU/denis/medium/ru_RU-denis-medium.onnx.json"
+    },
+    {
+      "name": "MODEL_CARD",
+      "bytes": 276,
+      "sha256": "8b5d685dd80f8ad3f8dbbe1c56b16bb0809f00c144af3642dbcf3b707eb89c12",
+      "source": "https://huggingface.co/rhasspy/piper-voices/resolve/main/ru/ru_RU/denis/medium/MODEL_CARD"
+    }
+  ],
+  "graph_integrity": {
+    "count": 8,
+    "error": null,
+    "head_hash": "efbc072b245f37c429d69c537aed15eb94c8d6fa334bf272ea6f07a06621e3b5",
+    "valid": true
+  },
+  "correction_event_id": "353dde20-b094-4cf1-8d82-0049fa01367e",
+  "external_publication": false,
+  "source_commit": "864255b8215c6f7458111a845cdbeb11c4a5d078",
+  "source_clean": true,
+  "runtime": "Linux CPU, Piper 1.8.0, FFmpeg 6.1.1",
+  "notes": [
+    "Actual Piper CLI synthesis and MP4 decode verified; perceived voice quality is for listening review.",
+    "Prior eSpeak render and project revision are retained; replacement is an append-only correction.",
+    "Voice weights and Python packages are installed separately; reproducible setup is documented in docs/voice.md."
+  ],
+  "render_source_commit": "637ca5e3aa9806037b0c907ff4d6851330f4691b",
+  "checks": {
+    "unit_and_api_fixture_tests_passed": 66,
+    "real_ffmpeg_tests_passed": 2,
+    "clippy": "passed",
+    "formatting": "passed",
+    "javascript_syntax": "passed",
+    "persistent_local_configuration": "Piper ru, preferred_voice=piper",
+    "normal_test_commands": "passed with repository profile.test"
+  },
+  "test_build_note": "Single codegen unit and no incremental compilation are configured for tests after unusable object outputs on this host; root cause unresolved."
+}

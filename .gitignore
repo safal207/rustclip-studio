@@ -1,0 +1,8 @@
+/target/
+/data/
+/.env
+/.venv/
+/dist/
+*.log
+*.sqlite*
+.DS_Store

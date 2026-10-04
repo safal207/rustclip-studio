@@ -1,0 +1,840 @@
+{
+  "as_of": null,
+  "boundary_complete": true,
+  "edges": [
+    {
+      "relation": "dependency",
+      "source": "353dde20-b094-4cf1-8d82-0049fa01367e",
+      "target": "4691d063-16ae-4052-afd6-4588ffef4db5"
+    },
+    {
+      "relation": "dependency",
+      "source": "3afedf20-c07e-415c-be7b-448a0ec51fc1",
+      "target": "91d16f21-2ae3-4eec-905f-6f8ef42da505"
+    },
+    {
+      "relation": "dependency",
+      "source": "4691d063-16ae-4052-afd6-4588ffef4db5",
+      "target": "3afedf20-c07e-415c-be7b-448a0ec51fc1"
+    },
+    {
+      "relation": "dependency",
+      "source": "cdea2f70-c25f-44fc-bd55-5818877bc0e7",
+      "target": "353dde20-b094-4cf1-8d82-0049fa01367e"
+    },
+    {
+      "relation": "supersedes",
+      "source": "cdea2f70-c25f-44fc-bd55-5818877bc0e7",
+      "target": "353dde20-b094-4cf1-8d82-0049fa01367e"
+    },
+    {
+      "relation": "dependency",
+      "source": "d817efff-8ea6-4523-9a9a-1214d423b8b7",
+      "target": "e6b8e95e-fa87-4a7c-a0a4-27d5ceb2ba4c"
+    },
+    {
+      "relation": "dependency",
+      "source": "e6b8e95e-fa87-4a7c-a0a4-27d5ceb2ba4c",
+      "target": "fb0ed3c6-ee20-47ca-97d1-766dc0157742"
+    },
+    {
+      "relation": "dependency",
+      "source": "fb0ed3c6-ee20-47ca-97d1-766dc0157742",
+      "target": "cdea2f70-c25f-44fc-bd55-5818877bc0e7"
+    }
+  ],
+  "integrity": {
+    "count": 8,
+    "error": null,
+    "head_hash": "efbc072b245f37c429d69c537aed15eb94c8d6fa334bf272ea6f07a06621e3b5",
+    "valid": true
+  },
+  "missing_parent_ids": [],
+  "nodes": [
+    {
+      "claim_level": "DERIVED",
+      "confidence": null,
+      "evidence": {
+        "generator": "manual",
+        "source_urls": []
+      },
+      "execution_id": "1596aa59-b04e-4477-8270-45131493b69e",
+      "expected": {
+        "goal": "original_video",
+        "performance": "unproven"
+      },
+      "from_state": "absent",
+      "hash": "ed7fd24ec6d419aceb5d4c48e7d75c7d16c8f8ba60ad1c4e56f3d4dc413c82cd",
+      "id": "d817efff-8ea6-4523-9a9a-1214d423b8b7",
+      "observed": {
+        "project": {
+          "artifact": null,
+          "created_at": "2026-10-03T22:03:56.729Z",
+          "error": null,
+          "id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+          "revision": 1,
+          "spec": {
+            "description": "Когда вокруг слишком много задач, начните с одного результата, который можно закончить сегодня.",
+            "language": "ru",
+            "music_asset": null,
+            "profile": "shorts",
+            "scenes": [
+              {
+                "asset": null,
+                "duration_s": 5.0,
+                "narration": "Вкладок становится больше. А законченных дел — меньше.",
+                "text": "А законченных дел всё меньше.",
+                "title": "Слишком много вкладок?"
+              },
+              {
+                "asset": null,
+                "duration_s": 8.0,
+                "narration": "Выбери один результат, который можно проверить сегодня. Например, короткий ролик с одной понятной мыслью.",
+                "text": "Что можно проверить сегодня?",
+                "title": "Выбери один результат"
+              },
+              {
+                "asset": null,
+                "duration_s": 8.0,
+                "narration": "Собери историю. Проверь звук, кадры и титры. Убери всё, что не помогает зрителю понять мысль.",
+                "text": "Голос → кадр → титры",
+                "title": "Собери. Проверь. Закончи."
+              },
+              {
+                "asset": null,
+                "duration_s": 7.0,
+                "narration": "Один ясный шаг. Один законченный результат. Завтра на него можно опереться и сделать следующий.",
+                "text": "Завтра будет на что опереться.",
+                "title": "Один ясный шаг"
+              }
+            ],
+            "source_urls": [],
+            "tags": [
+              "одиншаг",
+              "самоорганизация"
+            ],
+            "title": "Один ясный шаг",
+            "topic": "Как перестать переключаться между задачами",
+            "voice": "espeak"
+          },
+          "status": "draft",
+          "updated_at": "2026-10-03T22:03:56.729Z"
+        }
+      },
+      "operation_id": "fcd5e393-e939-446f-b4a2-32cbd748dcc0",
+      "parents": [],
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "reason": "Создана редактируемая идея ролика",
+      "recorded_at": "2026-10-03T22:03:56.730Z",
+      "seq": 1,
+      "spatial_scope": "local",
+      "subject_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+      "supersedes": null,
+      "to_state": "draft",
+      "valid_at": "2026-10-03T22:03:56.729Z"
+    },
+    {
+      "claim_level": "OBSERVATION",
+      "confidence": null,
+      "evidence": {},
+      "execution_id": "88bef765-557f-40d4-ac0f-6ab91a78decd",
+      "expected": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "revision": 1
+      },
+      "from_state": "draft",
+      "hash": "c034fb9653ed21027fdde8ed1f9cceaeba0a351fac3c61ce5c48fd4a3b850945",
+      "id": "e6b8e95e-fa87-4a7c-a0a4-27d5ceb2ba4c",
+      "observed": {
+        "job": {
+          "created_at": "2026-10-03T22:03:56.731Z",
+          "due_at": null,
+          "error": null,
+          "id": "88bef765-557f-40d4-ac0f-6ab91a78decd",
+          "kind": "render",
+          "operation_key": "700f90370806f62aac9b696c93ed9962b4bb16cd559c0756c9594bdbf8d8e7d4",
+          "progress": 0.0,
+          "project_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+          "request": {
+            "revision": 1
+          },
+          "result": null,
+          "state": "queued",
+          "updated_at": "2026-10-03T22:03:56.731Z"
+        },
+        "project": {
+          "artifact": null,
+          "created_at": "2026-10-03T22:03:56.729Z",
+          "error": null,
+          "id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+          "revision": 1,
+          "spec": {
+            "description": "Когда вокруг слишком много задач, начните с одного результата, который можно закончить сегодня.",
+            "language": "ru",
+            "music_asset": null,
+            "profile": "shorts",
+            "scenes": [
+              {
+                "asset": null,
+                "duration_s": 5.0,
+                "narration": "Вкладок становится больше. А законченных дел — меньше.",
+                "text": "А законченных дел всё меньше.",
+                "title": "Слишком много вкладок?"
+              },
+              {
+                "asset": null,
+                "duration_s": 8.0,
+                "narration": "Выбери один результат, который можно проверить сегодня. Например, короткий ролик с одной понятной мыслью.",
+                "text": "Что можно проверить сегодня?",
+                "title": "Выбери один результат"
+              },
+              {
+                "asset": null,
+                "duration_s": 8.0,
+                "narration": "Собери историю. Проверь звук, кадры и титры. Убери всё, что не помогает зрителю понять мысль.",
+                "text": "Голос → кадр → титры",
+                "title": "Собери. Проверь. Закончи."
+              },
+              {
+                "asset": null,
+                "duration_s": 7.0,
+                "narration": "Один ясный шаг. Один законченный результат. Завтра на него можно опереться и сделать следующий.",
+                "text": "Завтра будет на что опереться.",
+                "title": "Один ясный шаг"
+              }
+            ],
+            "source_urls": [],
+            "tags": [
+              "одиншаг",
+              "самоорганизация"
+            ],
+            "title": "Один ясный шаг",
+            "topic": "Как перестать переключаться между задачами",
+            "voice": "espeak"
+          },
+          "status": "rendering",
+          "updated_at": "2026-10-03T22:03:56.731Z"
+        }
+      },
+      "operation_id": "700f90370806f62aac9b696c93ed9962b4bb16cd559c0756c9594bdbf8d8e7d4",
+      "parents": [
+        {
+          "hash": "ed7fd24ec6d419aceb5d4c48e7d75c7d16c8f8ba60ad1c4e56f3d4dc413c82cd",
+          "id": "d817efff-8ea6-4523-9a9a-1214d423b8b7",
+          "relation": "dependency"
+        }
+      ],
+      "previous_hash": "ed7fd24ec6d419aceb5d4c48e7d75c7d16c8f8ba60ad1c4e56f3d4dc413c82cd",
+      "reason": "Запрошен рендер конкретной версии сценария",
+      "recorded_at": "2026-10-03T22:03:56.731Z",
+      "seq": 2,
+      "spatial_scope": "local",
+      "subject_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+      "supersedes": null,
+      "to_state": "render_queued",
+      "valid_at": "2026-10-03T22:03:56.731Z"
+    },
+    {
+      "claim_level": "OBSERVATION",
+      "confidence": null,
+      "evidence": {
+        "admission": "revision_and_schedule_checked"
+      },
+      "execution_id": "88bef765-557f-40d4-ac0f-6ab91a78decd",
+      "expected": {
+        "revision": 1
+      },
+      "from_state": "queued",
+      "hash": "befbe06d1f60218672e7bc6c2e0b290fe8d60491ad359337291b1d9326019963",
+      "id": "fb0ed3c6-ee20-47ca-97d1-766dc0157742",
+      "observed": {
+        "job": {
+          "created_at": "2026-10-03T22:03:56.731Z",
+          "due_at": null,
+          "error": null,
+          "id": "88bef765-557f-40d4-ac0f-6ab91a78decd",
+          "kind": "render",
+          "operation_key": "700f90370806f62aac9b696c93ed9962b4bb16cd559c0756c9594bdbf8d8e7d4",
+          "progress": 0.05000000074505806,
+          "project_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+          "request": {
+            "revision": 1
+          },
+          "result": null,
+          "state": "running",
+          "updated_at": "2026-10-03T22:03:56.733Z"
+        }
+      },
+      "operation_id": "700f90370806f62aac9b696c93ed9962b4bb16cd559c0756c9594bdbf8d8e7d4",
+      "parents": [
+        {
+          "hash": "c034fb9653ed21027fdde8ed1f9cceaeba0a351fac3c61ce5c48fd4a3b850945",
+          "id": "e6b8e95e-fa87-4a7c-a0a4-27d5ceb2ba4c",
+          "relation": "dependency"
+        }
+      ],
+      "previous_hash": "c034fb9653ed21027fdde8ed1f9cceaeba0a351fac3c61ce5c48fd4a3b850945",
+      "reason": "Проверены версия, причинные входы и время запуска",
+      "recorded_at": "2026-10-03T22:03:56.733Z",
+      "seq": 3,
+      "spatial_scope": "local",
+      "subject_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+      "supersedes": null,
+      "to_state": "running",
+      "valid_at": "2026-10-03T22:03:56.733Z"
+    },
+    {
+      "claim_level": "OBSERVATION",
+      "confidence": null,
+      "evidence": {
+        "artifact": {
+          "created_at": "2026-10-03T22:04:05.976Z",
+          "duration_s": 28.021333,
+          "height": 1920,
+          "id": "8519abe1-2c45-42a3-abb1-eb0d49bcc402",
+          "path": "renders/0a6e8f6f-4385-4120-b209-10feec617b7b/8519abe1-2c45-42a3-abb1-eb0d49bcc402/video.mp4",
+          "revision": 1,
+          "sha256": "348699cb1f350faac713cb20b73117afcd9d477ff4aeb9161a94ad8b10be2c7a",
+          "width": 1080
+        }
+      },
+      "execution_id": "88bef765-557f-40d4-ac0f-6ab91a78decd",
+      "expected": {
+        "playable_video": true,
+        "revision": 1
+      },
+      "from_state": "rendering",
+      "hash": "ee674ce2c472b69a60fd4784df64c16866205d7e37ab3a127e2da0545bc325c2",
+      "id": "cdea2f70-c25f-44fc-bd55-5818877bc0e7",
+      "observed": {
+        "job": {
+          "created_at": "2026-10-03T22:03:56.731Z",
+          "due_at": null,
+          "error": null,
+          "id": "88bef765-557f-40d4-ac0f-6ab91a78decd",
+          "kind": "render",
+          "operation_key": "700f90370806f62aac9b696c93ed9962b4bb16cd559c0756c9594bdbf8d8e7d4",
+          "progress": 1.0,
+          "project_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+          "request": {
+            "revision": 1
+          },
+          "result": {
+            "artifact": {
+              "created_at": "2026-10-03T22:04:05.976Z",
+              "duration_s": 28.021333,
+              "height": 1920,
+              "id": "8519abe1-2c45-42a3-abb1-eb0d49bcc402",
+              "path": "renders/0a6e8f6f-4385-4120-b209-10feec617b7b/8519abe1-2c45-42a3-abb1-eb0d49bcc402/video.mp4",
+              "revision": 1,
+              "sha256": "348699cb1f350faac713cb20b73117afcd9d477ff4aeb9161a94ad8b10be2c7a",
+              "width": 1080
+            }
+          },
+          "state": "succeeded",
+          "updated_at": "2026-10-03T22:04:05.977Z"
+        },
+        "project": {
+          "artifact": {
+            "created_at": "2026-10-03T22:04:05.976Z",
+            "duration_s": 28.021333,
+            "height": 1920,
+            "id": "8519abe1-2c45-42a3-abb1-eb0d49bcc402",
+            "path": "renders/0a6e8f6f-4385-4120-b209-10feec617b7b/8519abe1-2c45-42a3-abb1-eb0d49bcc402/video.mp4",
+            "revision": 1,
+            "sha256": "348699cb1f350faac713cb20b73117afcd9d477ff4aeb9161a94ad8b10be2c7a",
+            "width": 1080
+          },
+          "created_at": "2026-10-03T22:03:56.729Z",
+          "error": null,
+          "id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+          "revision": 1,
+          "spec": {
+            "description": "Когда вокруг слишком много задач, начните с одного результата, который можно закончить сегодня.",
+            "language": "ru",
+            "music_asset": null,
+            "profile": "shorts",
+            "scenes": [
+              {
+                "asset": null,
+                "duration_s": 5.0,
+                "narration": "Вкладок становится больше. А законченных дел — меньше.",
+                "text": "А законченных дел всё меньше.",
+                "title": "Слишком много вкладок?"
+              },
+              {
+                "asset": null,
+                "duration_s": 8.0,
+                "narration": "Выбери один результат, который можно проверить сегодня. Например, короткий ролик с одной понятной мыслью.",
+                "text": "Что можно проверить сегодня?",
+                "title": "Выбери один результат"
+              },
+              {
+                "asset": null,
+                "duration_s": 8.0,
+                "narration": "Собери историю. Проверь звук, кадры и титры. Убери всё, что не помогает зрителю понять мысль.",
+                "text": "Голос → кадр → титры",
+                "title": "Собери. Проверь. Закончи."
+              },
+              {
+                "asset": null,
+                "duration_s": 7.0,
+                "narration": "Один ясный шаг. Один законченный результат. Завтра на него можно опереться и сделать следующий.",
+                "text": "Завтра будет на что опереться.",
+                "title": "Один ясный шаг"
+              }
+            ],
+            "source_urls": [],
+            "tags": [
+              "одиншаг",
+              "самоорганизация"
+            ],
+            "title": "Один ясный шаг",
+            "topic": "Как перестать переключаться между задачами",
+            "voice": "espeak"
+          },
+          "status": "ready",
+          "updated_at": "2026-10-03T22:04:05.977Z"
+        }
+      },
+      "operation_id": "700f90370806f62aac9b696c93ed9962b4bb16cd559c0756c9594bdbf8d8e7d4",
+      "parents": [
+        {
+          "hash": "befbe06d1f60218672e7bc6c2e0b290fe8d60491ad359337291b1d9326019963",
+          "id": "fb0ed3c6-ee20-47ca-97d1-766dc0157742",
+          "relation": "dependency"
+        }
+      ],
+      "previous_hash": "befbe06d1f60218672e7bc6c2e0b290fe8d60491ad359337291b1d9326019963",
+      "reason": "Результат рендера проверен отдельно от запуска инструмента",
+      "recorded_at": "2026-10-03T22:04:05.978Z",
+      "seq": 4,
+      "spatial_scope": "local",
+      "subject_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+      "supersedes": null,
+      "to_state": "succeeded",
+      "valid_at": "2026-10-03T22:04:05.977Z"
+    },
+    {
+      "claim_level": "CORRECTION",
+      "confidence": null,
+      "evidence": {
+        "spec_sha256": "f79e80151bbe56e7497c378c7a81430c3c0a7b86568b3155f6edf5e7662e38e3"
+      },
+      "execution_id": "7155cd10-aa0e-4807-870d-e6ebc3051113",
+      "expected": {
+        "base_revision": 1
+      },
+      "from_state": "script",
+      "hash": "c15d0c93e799757cc41aa1ccd85850425198c59d31eea12e19dbc09c0d0b79d6",
+      "id": "353dde20-b094-4cf1-8d82-0049fa01367e",
+      "observed": {
+        "project": {
+          "artifact": null,
+          "created_at": "2026-10-03T22:03:56.729Z",
+          "error": null,
+          "id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+          "revision": 2,
+          "spec": {
+            "description": "Когда вокруг слишком много задач, начните с одного результата, который можно закончить сегодня.",
+            "language": "ru",
+            "music_asset": null,
+            "profile": "shorts",
+            "scenes": [
+              {
+                "asset": null,
+                "duration_s": 5.0,
+                "narration": "Вкладок становится больше. А законченных дел — меньше.",
+                "text": "А законченных дел всё меньше.",
+                "title": "Слишком много вкладок?"
+              },
+              {
+                "asset": null,
+                "duration_s": 8.0,
+                "narration": "Выбери один результат, который можно проверить сегодня. Например, короткий ролик с одной понятной мыслью.",
+                "text": "Что можно проверить сегодня?",
+                "title": "Выбери один результат"
+              },
+              {
+                "asset": null,
+                "duration_s": 8.0,
+                "narration": "Собери историю. Проверь звук, кадры и титры. Убери всё, что не помогает зрителю понять мысль.",
+                "text": "Голос → кадр → титры",
+                "title": "Собери. Проверь. Закончи."
+              },
+              {
+                "asset": null,
+                "duration_s": 7.0,
+                "narration": "Один ясный шаг. Один законченный результат. Завтра на него можно опереться и сделать следующий.",
+                "text": "Завтра будет на что опереться.",
+                "title": "Один ясный шаг"
+              }
+            ],
+            "source_urls": [],
+            "tags": [
+              "одиншаг",
+              "самоорганизация"
+            ],
+            "title": "Один ясный шаг",
+            "topic": "Как перестать переключаться между задачами",
+            "voice": "piper"
+          },
+          "status": "draft",
+          "updated_at": "2026-10-03T22:49:40.065Z"
+        }
+      },
+      "operation_id": "b81efbd0-8af7-422e-88a8-4dde60505c55",
+      "parents": [
+        {
+          "hash": "ee674ce2c472b69a60fd4784df64c16866205d7e37ab3a127e2da0545bc325c2",
+          "id": "cdea2f70-c25f-44fc-bd55-5818877bc0e7",
+          "relation": "dependency"
+        }
+      ],
+      "previous_hash": "ee674ce2c472b69a60fd4784df64c16866205d7e37ab3a127e2da0545bc325c2",
+      "reason": "Изменён сценарий; предыдущий рендер теперь исторический",
+      "recorded_at": "2026-10-03T22:49:40.065Z",
+      "seq": 5,
+      "space": {
+        "geometry": {
+          "height": 1920,
+          "width": 1080
+        },
+        "locus": "studio",
+        "profile": "shorts",
+        "project_revision": 2,
+        "scope": "local",
+        "subject": "0a6e8f6f-4385-4120-b209-10feec617b7b"
+      },
+      "spatial_scope": "local",
+      "subject_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+      "supersedes": "cdea2f70-c25f-44fc-bd55-5818877bc0e7",
+      "to_state": "draft",
+      "valid_at": "2026-10-03T22:49:40.065Z"
+    },
+    {
+      "claim_level": "OBSERVATION",
+      "confidence": null,
+      "evidence": {},
+      "execution_id": "c0a68674-9004-43b7-acf1-8509b0d18356",
+      "expected": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "revision": 2
+      },
+      "from_state": "draft",
+      "hash": "3b42dd07c83096b6d4d85b1a218683daed3c7e7b676aa99f8b8164105802bbc0",
+      "id": "4691d063-16ae-4052-afd6-4588ffef4db5",
+      "observed": {
+        "job": {
+          "created_at": "2026-10-03T22:49:40.071Z",
+          "due_at": null,
+          "error": null,
+          "id": "c0a68674-9004-43b7-acf1-8509b0d18356",
+          "kind": "render",
+          "operation_key": "5695f236ef492dda28ce616c4bb959ba13edeae93fc2b69f5ad551e7b2fedbc6",
+          "progress": 0.0,
+          "project_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+          "request": {
+            "revision": 2
+          },
+          "result": null,
+          "state": "queued",
+          "updated_at": "2026-10-03T22:49:40.071Z"
+        },
+        "project": {
+          "artifact": null,
+          "created_at": "2026-10-03T22:03:56.729Z",
+          "error": null,
+          "id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+          "revision": 2,
+          "spec": {
+            "description": "Когда вокруг слишком много задач, начните с одного результата, который можно закончить сегодня.",
+            "language": "ru",
+            "music_asset": null,
+            "profile": "shorts",
+            "scenes": [
+              {
+                "asset": null,
+                "duration_s": 5.0,
+                "narration": "Вкладок становится больше. А законченных дел — меньше.",
+                "text": "А законченных дел всё меньше.",
+                "title": "Слишком много вкладок?"
+              },
+              {
+                "asset": null,
+                "duration_s": 8.0,
+                "narration": "Выбери один результат, который можно проверить сегодня. Например, короткий ролик с одной понятной мыслью.",
+                "text": "Что можно проверить сегодня?",
+                "title": "Выбери один результат"
+              },
+              {
+                "asset": null,
+                "duration_s": 8.0,
+                "narration": "Собери историю. Проверь звук, кадры и титры. Убери всё, что не помогает зрителю понять мысль.",
+                "text": "Голос → кадр → титры",
+                "title": "Собери. Проверь. Закончи."
+              },
+              {
+                "asset": null,
+                "duration_s": 7.0,
+                "narration": "Один ясный шаг. Один законченный результат. Завтра на него можно опереться и сделать следующий.",
+                "text": "Завтра будет на что опереться.",
+                "title": "Один ясный шаг"
+              }
+            ],
+            "source_urls": [],
+            "tags": [
+              "одиншаг",
+              "самоорганизация"
+            ],
+            "title": "Один ясный шаг",
+            "topic": "Как перестать переключаться между задачами",
+            "voice": "piper"
+          },
+          "status": "rendering",
+          "updated_at": "2026-10-03T22:49:40.071Z"
+        }
+      },
+      "operation_id": "5695f236ef492dda28ce616c4bb959ba13edeae93fc2b69f5ad551e7b2fedbc6",
+      "parents": [
+        {
+          "hash": "c15d0c93e799757cc41aa1ccd85850425198c59d31eea12e19dbc09c0d0b79d6",
+          "id": "353dde20-b094-4cf1-8d82-0049fa01367e",
+          "relation": "dependency"
+        }
+      ],
+      "previous_hash": "c15d0c93e799757cc41aa1ccd85850425198c59d31eea12e19dbc09c0d0b79d6",
+      "reason": "Запрошен рендер конкретной версии сценария",
+      "recorded_at": "2026-10-03T22:49:40.071Z",
+      "seq": 6,
+      "space": {
+        "geometry": {
+          "height": 1920,
+          "width": 1080
+        },
+        "locus": "studio",
+        "profile": "shorts",
+        "project_revision": 2,
+        "scope": "local",
+        "subject": "0a6e8f6f-4385-4120-b209-10feec617b7b"
+      },
+      "spatial_scope": "local",
+      "subject_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+      "supersedes": null,
+      "to_state": "render_queued",
+      "valid_at": "2026-10-03T22:49:40.071Z"
+    },
+    {
+      "claim_level": "OBSERVATION",
+      "confidence": null,
+      "evidence": {
+        "admission": "revision_and_schedule_checked"
+      },
+      "execution_id": "c0a68674-9004-43b7-acf1-8509b0d18356",
+      "expected": {
+        "revision": 2
+      },
+      "from_state": "queued",
+      "hash": "3123b07c72359e67d9f35866aaa29c9c9c5a256ba1da7ab468f250c484e0f81e",
+      "id": "3afedf20-c07e-415c-be7b-448a0ec51fc1",
+      "observed": {
+        "job": {
+          "created_at": "2026-10-03T22:49:40.071Z",
+          "due_at": null,
+          "error": null,
+          "id": "c0a68674-9004-43b7-acf1-8509b0d18356",
+          "kind": "render",
+          "operation_key": "5695f236ef492dda28ce616c4bb959ba13edeae93fc2b69f5ad551e7b2fedbc6",
+          "progress": 0.05000000074505806,
+          "project_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+          "request": {
+            "revision": 2
+          },
+          "result": null,
+          "state": "running",
+          "updated_at": "2026-10-03T22:49:40.080Z"
+        }
+      },
+      "operation_id": "5695f236ef492dda28ce616c4bb959ba13edeae93fc2b69f5ad551e7b2fedbc6",
+      "parents": [
+        {
+          "hash": "3b42dd07c83096b6d4d85b1a218683daed3c7e7b676aa99f8b8164105802bbc0",
+          "id": "4691d063-16ae-4052-afd6-4588ffef4db5",
+          "relation": "dependency"
+        }
+      ],
+      "previous_hash": "3b42dd07c83096b6d4d85b1a218683daed3c7e7b676aa99f8b8164105802bbc0",
+      "reason": "Проверены версия, причинные входы и время запуска",
+      "recorded_at": "2026-10-03T22:49:40.081Z",
+      "seq": 7,
+      "space": {
+        "geometry": {
+          "height": 1920,
+          "width": 1080
+        },
+        "locus": "studio",
+        "profile": "shorts",
+        "project_revision": 2,
+        "scope": "local",
+        "subject": "0a6e8f6f-4385-4120-b209-10feec617b7b"
+      },
+      "spatial_scope": "local",
+      "subject_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+      "supersedes": null,
+      "to_state": "running",
+      "valid_at": "2026-10-03T22:49:40.080Z"
+    },
+    {
+      "claim_level": "OBSERVATION",
+      "confidence": null,
+      "evidence": {
+        "artifact": {
+          "created_at": "2026-10-03T22:49:50.886Z",
+          "duration_s": 28.021333,
+          "height": 1920,
+          "id": "d7471702-76e0-46e7-95ef-6316b29cb936",
+          "path": "renders/0a6e8f6f-4385-4120-b209-10feec617b7b/d7471702-76e0-46e7-95ef-6316b29cb936/video.mp4",
+          "revision": 2,
+          "sha256": "3ef8de47d8b49722cb9fdad293b83cb486d869a61f9065e0a72904c98050f6e7",
+          "width": 1080
+        }
+      },
+      "execution_id": "c0a68674-9004-43b7-acf1-8509b0d18356",
+      "expected": {
+        "playable_video": true,
+        "revision": 2
+      },
+      "from_state": "rendering",
+      "hash": "efbc072b245f37c429d69c537aed15eb94c8d6fa334bf272ea6f07a06621e3b5",
+      "id": "91d16f21-2ae3-4eec-905f-6f8ef42da505",
+      "observed": {
+        "job": {
+          "created_at": "2026-10-03T22:49:40.071Z",
+          "due_at": null,
+          "error": null,
+          "id": "c0a68674-9004-43b7-acf1-8509b0d18356",
+          "kind": "render",
+          "operation_key": "5695f236ef492dda28ce616c4bb959ba13edeae93fc2b69f5ad551e7b2fedbc6",
+          "progress": 1.0,
+          "project_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+          "request": {
+            "revision": 2
+          },
+          "result": {
+            "artifact": {
+              "created_at": "2026-10-03T22:49:50.886Z",
+              "duration_s": 28.021333,
+              "height": 1920,
+              "id": "d7471702-76e0-46e7-95ef-6316b29cb936",
+              "path": "renders/0a6e8f6f-4385-4120-b209-10feec617b7b/d7471702-76e0-46e7-95ef-6316b29cb936/video.mp4",
+              "revision": 2,
+              "sha256": "3ef8de47d8b49722cb9fdad293b83cb486d869a61f9065e0a72904c98050f6e7",
+              "width": 1080
+            }
+          },
+          "state": "succeeded",
+          "updated_at": "2026-10-03T22:49:50.893Z"
+        },
+        "project": {
+          "artifact": {
+            "created_at": "2026-10-03T22:49:50.886Z",
+            "duration_s": 28.021333,
+            "height": 1920,
+            "id": "d7471702-76e0-46e7-95ef-6316b29cb936",
+            "path": "renders/0a6e8f6f-4385-4120-b209-10feec617b7b/d7471702-76e0-46e7-95ef-6316b29cb936/video.mp4",
+            "revision": 2,
+            "sha256": "3ef8de47d8b49722cb9fdad293b83cb486d869a61f9065e0a72904c98050f6e7",
+            "width": 1080
+          },
+          "created_at": "2026-10-03T22:03:56.729Z",
+          "error": null,
+          "id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+          "revision": 2,
+          "spec": {
+            "description": "Когда вокруг слишком много задач, начните с одного результата, который можно закончить сегодня.",
+            "language": "ru",
+            "music_asset": null,
+            "profile": "shorts",
+            "scenes": [
+              {
+                "asset": null,
+                "duration_s": 5.0,
+                "narration": "Вкладок становится больше. А законченных дел — меньше.",
+                "text": "А законченных дел всё меньше.",
+                "title": "Слишком много вкладок?"
+              },
+              {
+                "asset": null,
+                "duration_s": 8.0,
+                "narration": "Выбери один результат, который можно проверить сегодня. Например, короткий ролик с одной понятной мыслью.",
+                "text": "Что можно проверить сегодня?",
+                "title": "Выбери один результат"
+              },
+              {
+                "asset": null,
+                "duration_s": 8.0,
+                "narration": "Собери историю. Проверь звук, кадры и титры. Убери всё, что не помогает зрителю понять мысль.",
+                "text": "Голос → кадр → титры",
+                "title": "Собери. Проверь. Закончи."
+              },
+              {
+                "asset": null,
+                "duration_s": 7.0,
+                "narration": "Один ясный шаг. Один законченный результат. Завтра на него можно опереться и сделать следующий.",
+                "text": "Завтра будет на что опереться.",
+                "title": "Один ясный шаг"
+              }
+            ],
+            "source_urls": [],
+            "tags": [
+              "одиншаг",
+              "самоорганизация"
+            ],
+            "title": "Один ясный шаг",
+            "topic": "Как перестать переключаться между задачами",
+            "voice": "piper"
+          },
+          "status": "ready",
+          "updated_at": "2026-10-03T22:49:50.893Z"
+        }
+      },
+      "operation_id": "5695f236ef492dda28ce616c4bb959ba13edeae93fc2b69f5ad551e7b2fedbc6",
+      "parents": [
+        {
+          "hash": "3123b07c72359e67d9f35866aaa29c9c9c5a256ba1da7ab468f250c484e0f81e",
+          "id": "3afedf20-c07e-415c-be7b-448a0ec51fc1",
+          "relation": "dependency"
+        }
+      ],
+      "previous_hash": "3123b07c72359e67d9f35866aaa29c9c9c5a256ba1da7ab468f250c484e0f81e",
+      "reason": "Результат рендера проверен отдельно от запуска инструмента",
+      "recorded_at": "2026-10-03T22:49:50.893Z",
+      "seq": 8,
+      "space": {
+        "artifact_id": "d7471702-76e0-46e7-95ef-6316b29cb936",
+        "artifact_sha256": "3ef8de47d8b49722cb9fdad293b83cb486d869a61f9065e0a72904c98050f6e7",
+        "geometry": {
+          "height": 1920,
+          "width": 1080
+        },
+        "locus": "studio",
+        "profile": "shorts",
+        "project_revision": 2,
+        "scope": "local",
+        "subject": "0a6e8f6f-4385-4120-b209-10feec617b7b"
+      },
+      "spatial_scope": "local",
+      "subject_id": "0a6e8f6f-4385-4120-b209-10feec617b7b",
+      "supersedes": null,
+      "to_state": "succeeded",
+      "valid_at": "2026-10-03T22:49:50.893Z"
+    }
+  ],
+  "semantics": "Explicit typed parents define the causal partial order; timestamps do not. valid_at is fact time; recorded_at is knowledge time. seq and previous_hash establish local append integrity only. dependency records a prerequisite; hypothesis records an unproven influence, not measured performance causation. Supersession preserves prior evidence. as_of filters recorded_at, including ancestors; boundary_complete=false means the time cut excluded required parent evidence, so this view is not a complete causal proof. Replay is read-only; hashes are not signatures or truth guarantees."
+}

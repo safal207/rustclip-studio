@@ -1,0 +1,16 @@
+{
+  "source": "google",
+  "region": "RU",
+  "angle": "Объяснить тему через собственный проверяемый пример",
+  "profile": "shorts",
+  "voice": "espeak",
+  "language": "ru",
+  "use_ollama": false,
+  "platform": "export",
+  "privacy": "private",
+  "dry_run": true,
+  "limit": 1,
+  "daily_budget": 2,
+  "interval_minutes": 60,
+  "utc_offset_hours": 3
+}
