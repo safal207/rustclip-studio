@@ -1,0 +1,41 @@
+TITLE: Evening by the Sea | 2 Hours of Soft Piano & Ambient Jazz | Original Music
+
+DESCRIPTION:
+A quiet illustrated room by the sea. Two hours of original soft electric piano, warm bass and a gentle ambient layer for a slow evening, reading or a peaceful background.
+
+The composition evolves through 24 five-minute chapters. The music is not a repeated one-hour recording. The illustrated rain, sea and lamplight use a seamless 90-second visual loop.
+
+Production: procedural composition and synthesis with Python/NumPy/SciPy; original illustrated animation with Pillow; assembly and encoding with FFmpeg and RustClip Studio. AI assisted the programming. No recorded performances, third-party music samples or stock images were used.
+
+The instruments are synthesized. This is not a live recording or medical treatment.
+
+CHAPTERS:
+00:00 C major / quiet variations
+05:00 A minor / quiet variations
+10:00 F major / quiet variations
+15:00 D minor / quiet variations
+20:00 G major / quiet variations
+25:00 E minor / quiet variations
+30:00 C major / quiet variations
+35:00 A minor / quiet variations
+40:00 F major / quiet variations
+45:00 B-flat major / quiet variations
+50:00 G minor / quiet variations
+55:00 C major / quiet variations
+1:00:00 C major / quiet variations
+1:05:00 A minor / quiet variations
+1:10:00 F major / quiet variations
+1:15:00 D minor / quiet variations
+1:20:00 G major / quiet variations
+1:25:00 E minor / quiet variations
+1:30:00 C major / quiet variations
+1:35:00 A minor / quiet variations
+1:40:00 F major / quiet variations
+1:45:00 B-flat major / quiet variations
+1:50:00 G minor / quiet variations
+1:55:00 C major / quiet variations
+
+SOURCE: https://github.com/safal207/rustclip-studio
+
+UPLOAD NOTE FOR OWNER:
+Review the finished video, music and YouTube Studio copyright checks before publishing. State the production method truthfully. If GenAI music is used in later releases, follow YouTube AI use disclosure rules. This draft is not a claim of copyright exclusivity, Content ID eligibility or approved monetization.

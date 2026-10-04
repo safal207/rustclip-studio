@@ -1,0 +1,30 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 16,
+  "duration_seconds": 90,
+  "frame_count": 1440,
+  "audio": false,
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "seed": 6042026,
+  "periodicity": "frame(1440) is byte-identical to frame(0); every animated phase is an integer cycle over 90 seconds",
+  "period_frame_equal": true,
+  "loop_join_pixel_mean_absolute_delta": 0.008667173032407407,
+  "previous_frame_pixel_mean_absolute_delta": 0.009276258680555555,
+  "content": "Original procedural illustration: warm quiet room, ocean window at dusk/night, gentle glass rain, lamp, books, mug steam, plant.",
+  "rights": "No third-party photos, music, sampled artwork, fonts, footage, or trademarks.",
+  "output_file": "coastal-room-loop-90s.mp4",
+  "encoded_file_sha256": "168476cf63cb415c93b3a1ee134e74581511f9a1e703b3385d88e23e663ea09e",
+  "encoded_file_size_bytes": 2852406,
+  "encoded_duration_seconds": 90.0,
+  "encoded_video_stream_count": 1,
+  "encoded_audio_stream_count": 0,
+  "encoded_frame_count_ffprobe": 1440,
+  "full_decode_passed": true,
+  "two_loops_stream_copy": {
+    "duration_seconds": 180.0,
+    "frames": 2880,
+    "full_decode_passed": true
+  }
+}

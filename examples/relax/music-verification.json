@@ -1,0 +1,183 @@
+{
+  "title": "Quiet Window — original ambient jazz",
+  "duration_seconds": 7200.0,
+  "sample_rate_hz": 44100,
+  "channels": 2,
+  "output_format": "PCM16 WAV / RF64 when needed",
+  "seed": 207,
+  "tempo_bpm": 64.0,
+  "fade_in_seconds": 17.0,
+  "fade_out_seconds": 17.0,
+  "composition_event_count": 8198,
+  "chapters": [
+    {
+      "start_seconds": 0.0,
+      "title": "C major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 300.0,
+      "title": "A minor / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 600.0,
+      "title": "F major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 900.0,
+      "title": "D minor / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 1200.0,
+      "title": "G major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 1500.0,
+      "title": "E minor / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 1800.0,
+      "title": "C major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 2100.0,
+      "title": "A minor / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 2400.0,
+      "title": "F major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 2700.0,
+      "title": "B-flat major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 3000.0,
+      "title": "G minor / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 3300.0,
+      "title": "C major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 3600.0,
+      "title": "C major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 3900.0,
+      "title": "A minor / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 4200.0,
+      "title": "F major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 4500.0,
+      "title": "D minor / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 4800.0,
+      "title": "G major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 5100.0,
+      "title": "E minor / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 5400.0,
+      "title": "C major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 5700.0,
+      "title": "A minor / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 6000.0,
+      "title": "F major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 6300.0,
+      "title": "B-flat major / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 6600.0,
+      "title": "G minor / quiet variations",
+      "tempo_bpm": 64.0
+    },
+    {
+      "start_seconds": 6900.0,
+      "title": "C major / quiet variations",
+      "tempo_bpm": 64.0
+    }
+  ],
+  "method": "Original modal/additive electric piano, sine-harmonic bass, detuned pad and continuous stereo convolution reverb; random choices seeded; freshly scheduled harmonic and melodic variations throughout.",
+  "rights": {
+    "audio_source": "All notes and room impulse responses synthesized by this generator; no recordings, sample packs, soundfonts or existing melodies supplied.",
+    "code_license": "MIT",
+    "third_party_dependencies": {
+      "numpy": "BSD-3-Clause",
+      "scipy": "BSD-3-Clause",
+      "FFmpeg": "license depends on installed build; executable used for encoding/measurement, not embedded in generated media"
+    },
+    "limitations": "Synthetic instruments, not an acoustic performance. Automated generation cannot guarantee copyright exclusivity, Content ID eligibility or platform monetization approval. No therapeutic claims."
+  },
+  "quality": {
+    "raw_sample_peak": 0.5011834502220154,
+    "raw_rms_dbfs": -26.111894157968667,
+    "raw_samples_at_or_above_full_scale": 0,
+    "cached_original_voices": 86,
+    "decoded_samples_per_channel": 317520000,
+    "sample_peak_dbfs": -2.0001827379579966,
+    "samples_at_or_above_minus_0_009_dbfs": 0,
+    "largest_adjacent_sample_step": 0.06982421875,
+    "largest_10_second_chunk_join_step": 0.018585205078125,
+    "join_step_within_natural_signal_range": true,
+    "decoder_errors": "",
+    "integrated_lufs": -19.0,
+    "true_peak_dbtp": -2.0,
+    "loudness_range_lu": 8.7,
+    "normalization_type": "dynamic",
+    "ffmpeg_loudness": {
+      "input_i": "-19.00",
+      "input_tp": "-2.00",
+      "input_lra": "8.70",
+      "input_thresh": "-29.34",
+      "output_i": "-19.06",
+      "output_tp": "-2.04",
+      "output_lra": "7.60",
+      "output_thresh": "-29.33",
+      "normalization_type": "dynamic",
+      "target_offset": "0.06"
+    }
+  },
+  "files": {
+    "audio": "quiet-window-120min.wav",
+    "audio_sha256": "44f066c08517daf24a5d2452c2531b975ea08931c7ad9b70d64f88d04b58825b",
+    "preview": "quiet-window-120min-preview.mp3",
+    "preview_sha256": "d07028e0af051409a69f27d3a1885fcd84976db24b8f9a05d3c7f3b19418a094"
+  },
+  "generator_sha256": "79b3f8a1e2f7643aa3a74620207f5da899f49cc6dd4a17297c3c365c08c981aa",
+  "render_wall_seconds": 699.453,
+  "reproduce": "python compose.py --minutes 120 --output quiet-window-120min.wav --seed 207 --target-lufs -19"
+}

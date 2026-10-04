@@ -1,0 +1,184 @@
+[
+  {
+    "seq": 1,
+    "id": "09733c7e-c020-40d4-8e50-905a4c54852d",
+    "subject_id": "evening-by-the-sea-120min.mp4",
+    "operation_id": "df1e3f9d-2104-417c-9965-842e2377f267",
+    "execution_id": "c2e37f80-a7a7-4720-b943-0bfcb92a6577",
+    "valid_at": "2026-10-04T09:20:05.901434+00:00",
+    "recorded_at": "2026-10-04T09:20:05.901434+00:00",
+    "from_state": "idea",
+    "to_state": "planned",
+    "reason": "Original relaxation music with an illustrated background",
+    "claim_level": "INTENT",
+    "spatial_scope": "local",
+    "space": {
+      "pipeline": "relax",
+      "duration_seconds": 7200,
+      "seed": 207
+    },
+    "confidence": null,
+    "parents": [],
+    "supersedes": null,
+    "expected": {},
+    "observed": {
+      "title": "Evening by the Sea",
+      "voice": false,
+      "youtube_uploaded": false,
+      "revenue_claimed": false
+    },
+    "evidence": {},
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "997cf882a4d85ec84394617ca0ce828a7e5c097744567da7d5ade0976361dc3a"
+  },
+  {
+    "seq": 2,
+    "id": "ac089aa8-2825-4956-b84c-8fb7efba7115",
+    "subject_id": "evening-by-the-sea-120min.mp4",
+    "operation_id": "7a2b9d38-1466-4eb7-9026-0ead64d0a630",
+    "execution_id": "c09a1d8e-92bc-4168-9e96-824523eef9b0",
+    "valid_at": "2026-10-04T09:20:06.787577+00:00",
+    "recorded_at": "2026-10-04T09:20:06.787577+00:00",
+    "from_state": "planned",
+    "to_state": "music_created",
+    "reason": "Original composition rendered without third-party recordings",
+    "claim_level": "OBSERVATION",
+    "spatial_scope": "local",
+    "space": {
+      "pipeline": "relax",
+      "duration_seconds": 7200,
+      "seed": 207
+    },
+    "confidence": null,
+    "parents": [
+      {
+        "id": "09733c7e-c020-40d4-8e50-905a4c54852d",
+        "hash": "997cf882a4d85ec84394617ca0ce828a7e5c097744567da7d5ade0976361dc3a",
+        "relation": "dependency"
+      }
+    ],
+    "supersedes": null,
+    "expected": {},
+    "observed": {
+      "file": "quiet-window-120min.wav",
+      "sha256": "44f066c08517daf24a5d2452c2531b975ea08931c7ad9b70d64f88d04b58825b"
+    },
+    "evidence": {},
+    "previous_hash": "997cf882a4d85ec84394617ca0ce828a7e5c097744567da7d5ade0976361dc3a",
+    "hash": "1d8fd8b7bdcb518414d587cbd128b3bee5ae72401905b0a19473450ecdcdd62c"
+  },
+  {
+    "seq": 3,
+    "id": "04b67024-ceaa-4c21-a41c-715d28193212",
+    "subject_id": "evening-by-the-sea-120min.mp4",
+    "operation_id": "12349849-6ad7-46dd-8c79-84eb86bb89e7",
+    "execution_id": "41206cde-6509-4927-ab14-8d7fd31f1c26",
+    "valid_at": "2026-10-04T09:20:06.848929+00:00",
+    "recorded_at": "2026-10-04T09:20:06.848929+00:00",
+    "from_state": "planned",
+    "to_state": "visual_created",
+    "reason": "Original animated illustration; the visual loop repeats",
+    "claim_level": "OBSERVATION",
+    "spatial_scope": "local",
+    "space": {
+      "pipeline": "relax",
+      "duration_seconds": 7200,
+      "seed": 207
+    },
+    "confidence": null,
+    "parents": [
+      {
+        "id": "09733c7e-c020-40d4-8e50-905a4c54852d",
+        "hash": "997cf882a4d85ec84394617ca0ce828a7e5c097744567da7d5ade0976361dc3a",
+        "relation": "dependency"
+      }
+    ],
+    "supersedes": null,
+    "expected": {},
+    "observed": {
+      "file": "coastal-room-loop-90s.mp4",
+      "sha256": "168476cf63cb415c93b3a1ee134e74581511f9a1e703b3385d88e23e663ea09e"
+    },
+    "evidence": {},
+    "previous_hash": "1d8fd8b7bdcb518414d587cbd128b3bee5ae72401905b0a19473450ecdcdd62c",
+    "hash": "1ead2985757fd53eb5c0b84956a4b2dc39c29c3ee38262ee24ddec2c588f2ba9"
+  },
+  {
+    "seq": 4,
+    "id": "c83fe243-39a0-46c3-987f-1c01a99ac238",
+    "subject_id": "evening-by-the-sea-120min.mp4",
+    "operation_id": "20c07e8b-068b-4a45-9d59-066f9a0d2da4",
+    "execution_id": "6ce147d0-e979-4b6c-b106-d0ad1f03ec68",
+    "valid_at": "2026-10-04T09:22:44.420581+00:00",
+    "recorded_at": "2026-10-04T09:22:44.420581+00:00",
+    "from_state": "assets_ready",
+    "to_state": "assembled",
+    "reason": "Full-length composition and repeated visual loop muxed into MP4",
+    "claim_level": "OBSERVATION",
+    "spatial_scope": "local",
+    "space": {
+      "pipeline": "relax",
+      "duration_seconds": 7200,
+      "seed": 207
+    },
+    "confidence": null,
+    "parents": [
+      {
+        "id": "ac089aa8-2825-4956-b84c-8fb7efba7115",
+        "hash": "1d8fd8b7bdcb518414d587cbd128b3bee5ae72401905b0a19473450ecdcdd62c",
+        "relation": "dependency"
+      },
+      {
+        "id": "04b67024-ceaa-4c21-a41c-715d28193212",
+        "hash": "1ead2985757fd53eb5c0b84956a4b2dc39c29c3ee38262ee24ddec2c588f2ba9",
+        "relation": "dependency"
+      }
+    ],
+    "supersedes": null,
+    "expected": {},
+    "observed": {
+      "duration_seconds": 7200
+    },
+    "evidence": {},
+    "previous_hash": "1ead2985757fd53eb5c0b84956a4b2dc39c29c3ee38262ee24ddec2c588f2ba9",
+    "hash": "918458c530565f050494e5694ad211146873abe38c0aa6e48cdca075c746f21f"
+  },
+  {
+    "seq": 5,
+    "id": "048bded6-3a22-4424-9b8c-f7f8f95f6a93",
+    "subject_id": "evening-by-the-sea-120min.mp4",
+    "operation_id": "f58bfb89-4af9-4212-8cd8-a834ddcecd98",
+    "execution_id": "427f3b7d-978b-48d5-bc3a-6b44bac9b3c8",
+    "valid_at": "2026-10-04T09:24:01.947431+00:00",
+    "recorded_at": "2026-10-04T09:24:01.947431+00:00",
+    "from_state": "assembled",
+    "to_state": "verified",
+    "reason": "Full audio/video decoded; duration and peak checked",
+    "claim_level": "OBSERVATION",
+    "spatial_scope": "local",
+    "space": {
+      "pipeline": "relax",
+      "duration_seconds": 7200,
+      "seed": 207
+    },
+    "confidence": null,
+    "parents": [
+      {
+        "id": "c83fe243-39a0-46c3-987f-1c01a99ac238",
+        "hash": "918458c530565f050494e5694ad211146873abe38c0aa6e48cdca075c746f21f",
+        "relation": "dependency"
+      }
+    ],
+    "supersedes": null,
+    "expected": {},
+    "observed": {
+      "file": "evening-by-the-sea-120min.mp4",
+      "sha256": "8b7936cfe82bfd56ed0a3faa31af29b5787bfba7d0920e893ef22de147c204f1",
+      "max_volume_dbfs": "-2.0",
+      "duration_seconds": "7200.125"
+    },
+    "evidence": {},
+    "previous_hash": "918458c530565f050494e5694ad211146873abe38c0aa6e48cdca075c746f21f",
+    "hash": "8afcc47976e048ef95166c7184dcf6658cdf2108360604eae8852eecf36d5d63"
+  }
+]

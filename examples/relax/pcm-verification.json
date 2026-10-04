@@ -1,0 +1,22 @@
+{
+  "path": "quiet-window-120min.wav",
+  "bytes": 1270080114,
+  "sha256": "44f066c08517daf24a5d2452c2531b975ea08931c7ad9b70d64f88d04b58825b",
+  "decoded_pcm_sha256": "f782f3a68740785bf0ab35b162fd8eb256ee1b607545b36e9361485708f2f9c5",
+  "sample_rate_hz": 44100,
+  "channels": 2,
+  "sample_width_bytes": 2,
+  "expected_frames_per_channel": 317520000,
+  "header_frames_per_channel": 317520000,
+  "read_frames_per_channel": 317520000,
+  "duration_matches": true,
+  "duration_seconds": 7200.0,
+  "exact_full_scale_samples": 0,
+  "peak_dbfs": -2.0001827379579966,
+  "rms_dbfs": -21.52101303541273,
+  "minimum_internal_one_second_rms_dbfs": -47.95668997361127,
+  "longest_internal_exact_zero_run_seconds": 2.2675736961451248e-05,
+  "unique_one_second_pcm_blocks": 7200,
+  "duplicate_one_second_pcm_blocks": 0,
+  "note": "Exact zero-run scan excludes 20 seconds at each endpoint for fades; unique-block hashes prove no identical one-second PCM blocks in this file, not copyright exclusivity."
+}

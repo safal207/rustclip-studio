@@ -1,0 +1,14 @@
+{
+  "duration_seconds": 7200.125,
+  "graph": {
+    "count": 5,
+    "error": null,
+    "head_hash": "8afcc47976e048ef95166c7184dcf6658cdf2108360604eae8852eecf36d5d63",
+    "valid": true
+  },
+  "journal_video_hash_matches": true,
+  "metadata_hash_matches": true,
+  "sha256": "8b7936cfe82bfd56ed0a3faa31af29b5787bfba7d0920e893ef22de147c204f1",
+  "size_bytes": 406986781,
+  "video": "/workspace/scratch/55e32ebed378/relax-studio/evening-by-the-sea-120min.mp4"
+}

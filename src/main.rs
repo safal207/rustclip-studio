@@ -1,7 +1,7 @@
 use anyhow::{Context, Result};
 use clap::{Parser, Subcommand};
 use rustclip_studio::{
-    graph,
+    graph, longform,
     models::*,
     money,
     pipeline::{self, PipelineConfig},
@@ -40,6 +40,17 @@ enum Command {
     },
     /// Создать проект из JSON и собрать MP4
     Render { spec: PathBuf },
+    /// Оригинальный многочасовой релакс-ролик без отдельного проекта в UI
+    Relax {
+        #[arg(long, default_value_t = 60, value_parser = clap::value_parser!(u32).range(1..=480))]
+        minutes: u32,
+        #[arg(long)]
+        output: PathBuf,
+        #[arg(long, default_value_t = 207)]
+        seed: u64,
+        #[arg(long, default_value = "python3")]
+        python: PathBuf,
+    },
     /// Свежие популярные запросы или ролики
     Trends {
         #[arg(long, default_value = "google")]
@@ -85,8 +96,25 @@ async fn main() -> Result<()> {
         )
         .init();
     let cli = Cli::parse();
-    let store = Store::open(&cli.data)?;
     let command = cli.command.unwrap_or(Command::Serve { port: 3939 });
+    if let Command::Relax {
+        minutes,
+        output,
+        seed,
+        python,
+    } = command
+    {
+        let report = longform::render(&longform::RelaxOptions {
+            minutes,
+            output,
+            seed,
+            python,
+        })
+        .await?;
+        println!("{}", serde_json::to_string_pretty(&report)?);
+        return Ok(());
+    }
+    let store = Store::open(&cli.data)?;
     if matches!(
         command,
         Command::Serve { .. }
@@ -120,6 +148,7 @@ async fn main() -> Result<()> {
             let bytes = std::fs::read(&spec).context("Не удалось прочитать сценарий")?;
             render_one(&store, serde_json::from_slice(&bytes)?).await?;
         }
+        Command::Relax { .. } => unreachable!("relax exits before opening the store"),
         Command::Trends { source, region } => {
             let data = trends::fetch(&source, &region).await?;
             store.save_trends(&data)?;
@@ -189,4 +218,35 @@ async fn render_one(store: &Store, spec: ProjectSpec) -> Result<()> {
     }
     println!("{}", serde_json::to_string_pretty(&store.project(&p.id)?)?);
     Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn relax_cli_rejects_duration_outside_supported_range() {
+        for minutes in ["0", "481", "-1"] {
+            assert!(Cli::try_parse_from([
+                "rustclip",
+                "relax",
+                "--minutes",
+                minutes,
+                "--output",
+                "output.mp4"
+            ])
+            .is_err());
+        }
+        for minutes in ["1", "480"] {
+            assert!(Cli::try_parse_from([
+                "rustclip",
+                "relax",
+                "--minutes",
+                minutes,
+                "--output",
+                "output.mp4"
+            ])
+            .is_ok());
+        }
+    }
 }

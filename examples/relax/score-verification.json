@@ -1,0 +1,17 @@
+{
+  "composition_duration_seconds": 7200,
+  "seed": 207,
+  "event_count": 8198,
+  "chapter_count": 24,
+  "first_hour": {
+    "event_count": 4084,
+    "relative_score_sha256": "219c9d6d6680cf194174ef73ffe36744fbe1bf2ded6f864936193619c95838b3"
+  },
+  "second_hour": {
+    "event_count": 4114,
+    "relative_score_sha256": "e52ee6ddb647f9e2a7a72065700dcb4808ba435a819441bbbb4835d1285ab231"
+  },
+  "second_hour_is_repeated_score": false,
+  "generator_sha256": "79b3f8a1e2f7643aa3a74620207f5da899f49cc6dd4a17297c3c365c08c981aa",
+  "note": "Independent score comparison. This compares generated note/timbre/timing events, not copyright exclusivity or platform eligibility."
+}
